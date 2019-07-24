@@ -1,0 +1,8 @@
+﻿  1065.A+B and C(64bit)(20).cpp
+E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20).cpp(7,10): warning C4477:  “scanf_s”: 格式字符串“%lld”需要类型“__int64 *”的参数，但可变参数 1 拥有了类型“int *”
+E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20).cpp(7,10): message :  请考虑在格式字符串中使用“%d”
+E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20).cpp(7,10): message :  请考虑在格式字符串中使用“%Id”
+E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20).cpp(7,10): message :  请考虑在格式字符串中使用“%I32d”
+E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20).cpp(8,23): warning C4018:  “<”: 有符号/无符号不匹配
+E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20)\1065.A+B and C(64bit)(20).cpp(18,23): warning C4018:  “<”: 有符号/无符号不匹配
+  1065.A+B and C(64bit)(20).vcxproj -> E:\大学\自学cs\PAT\AdvancedLevel\1065.A+B and C(64bit)(20)\Debug\1065.A+B and C(64bit)(20).exe

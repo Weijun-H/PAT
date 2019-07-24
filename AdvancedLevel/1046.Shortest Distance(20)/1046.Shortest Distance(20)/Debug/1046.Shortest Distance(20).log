@@ -1,0 +1,5 @@
+﻿  1046.Shortest Distance(20).cpp
+E:\大学\自学cs\PAT\AdvancedLevel\1046.Shortest Distance(20)\1046.Shortest Distance(20)\1046.Shortest Distance(20).cpp(10,23): warning C4018:  “<=”: 有符号/无符号不匹配
+E:\大学\自学cs\PAT\AdvancedLevel\1046.Shortest Distance(20)\1046.Shortest Distance(20)\1046.Shortest Distance(20).cpp(21,23): warning C4018:  “<”: 有符号/无符号不匹配
+E:\大学\自学cs\PAT\AdvancedLevel\1046.Shortest Distance(20)\1046.Shortest Distance(20)\1046.Shortest Distance(20).cpp(28,23): warning C4018:  “<”: 有符号/无符号不匹配
+  1046.Shortest Distance(20).vcxproj -> E:\大学\自学cs\PAT\AdvancedLevel\1046.Shortest Distance(20)\Debug\1046.Shortest Distance(20).exe
