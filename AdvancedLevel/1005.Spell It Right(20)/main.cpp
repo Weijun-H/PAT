@@ -13,3 +13,4 @@ int main() {
     for (int i = 1; i < s.length(); i++)
         cout << " " << arr[s[i] - '0'];
     return 0;
+}
