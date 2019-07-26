@@ -1,35 +1,32 @@
 #include <iostream>
-#include <string>
 #include <algorithm>
 using namespace std;
-
 int main() {
-    int n, min_len = 260, ans = 0;
-    string speaks[110];
+    int n;
     scanf("%d\n", &n);
-    for (int i = 0; i < n; ++i) {
-        getline(cin, speaks[i]);
-        reverse(speaks[i].begin(), speaks[i].end());
-        if (speaks[i].length() < min_len) min_len = speaks[i].length();
-    }
-
-    for (int j = 0; j < min_len; ++j) {
-        char c = speaks[0][j];
-        bool flag = true;
-        for (int i = 0; i < n; ++i) {
-            if (c != speaks[i][j]) {
-                flag = false;
-                break;
+    string ans;
+    for(int i = 0; i < n; i++) {
+        string s;
+        getline(cin, s);
+        int lens = s.length();
+        reverse(s.begin(), s.end());
+        if(i == 0) {
+            ans = s;
+            continue;
+        } else {
+            int lenans = ans.length();
+            if(lens < lenans) swap(ans, s);
+            int minlen = min(lens, lenans);
+            for(int j = 0; j < minlen; j++) {
+                if(ans[j] != s[j]) {
+                    ans = ans.substr(0, j);
+                    break;
+                }
             }
         }
-        if (flag)ans++;
-
     }
-    if (ans > 0) {
-        for (int k = ans-1; k >= 0; --k) {
-            cout << speaks[0][k];
-        }
-
-    }
-    else cout<<"nai";
+    reverse(ans.begin(), ans.end());
+    if (ans.length() == 0) ans = "nai";
+    cout << ans;
+    return 0;
 }
