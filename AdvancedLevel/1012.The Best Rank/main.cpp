@@ -1,5 +1,6 @@
 #include <cmath>
-#include <iostream>
+#include <cstdio>
+//#include <iostream>
 #include <algorithm>
 using namespace std;
 
@@ -19,15 +20,11 @@ int main() {
     int n,m;
     scanf("%d %d",&n,&m);
     for (int i = 0; i <n ; ++i) {
-        scanf("%d%d%d%d",&stu[i].id,&stu[i].grade[1],&stu[i].grade[2],&stu[i].grade[3]);
+        scanf("%d %d %d %d",&stu[i].id, &stu[i].grade[1], &stu[i].grade[2], &stu[i].grade[3]);
         stu[i].grade[0] = round((stu[i].grade[1]+stu[i].grade[2]+stu[i].grade[3])/3.0)+0.5;
     }
-    for (int now = 0; now < 4; ++now) {
+    for (now = 0; now < 4; ++now) {
         sort(stu,stu+n,cmp);
-        for (int j = 0; j < n; ++j) {
-            printf("%d %d %c\n",stu[j].id,stu[j].grade[now],course[now]);
-        }
-        printf("\n");
 
         Rank[stu[0].id][now] =1;
         for (int i = 1; i < n; i++) {
@@ -44,7 +41,7 @@ int main() {
             for (int j = 0; j < 4; ++j) {
                 if(Rank[query][j] < Rank[query][k]) k=j;
             }
-            printf("%d %c %d\n",Rank[query][k],course[k],Rank[query][0]);
+            printf("%d %c\n",Rank[query][k],course[k]);
         }
 
     }

@@ -9,7 +9,7 @@
 /Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1012.The Best Rank/main.cpp
 cmath
 -
-iostream
+cstdio
 -
 algorithm
 -
