@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1080_Graduate_Admission_30_" targetName="1080_Graduate_Admission_30_" />
+      <config projectName="1084_Broken_Keyboard" targetName="1084_Broken_Keyboard" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ada996-49ba-4a68-8940-5eba80aa0db7" name="Default Changelist" comment="" />
+    <list default="true" id="9900628d-6c6f-430f-adfc-179ac09e9631" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1080.Graduate Admission(30)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1080.Graduate Admission(30)/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
-                <element signature="e#1#20#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,10 +54,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="508" />
+    <option name="height" value="387" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,17 +66,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="1080_Graduate_Admission_30_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1080.Graduate Admission(30)" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -94,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1080_Graduate_Admission_30_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1080_Graduate_Admission_30_" TARGET_NAME="1080_Graduate_Admission_30_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1080_Graduate_Admission_30_" RUN_TARGET_NAME="1080_Graduate_Admission_30_">
+    <configuration name="1084_Broken_Keyboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1084_Broken_Keyboard" TARGET_NAME="1084_Broken_Keyboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1084_Broken_Keyboard" RUN_TARGET_NAME="1084_Broken_Keyboard">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -105,20 +98,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3ada996-49ba-4a68-8940-5eba80aa0db7" name="Default Changelist" comment="" />
-      <created>1564537107783</created>
+      <changelist id="9900628d-6c6f-430f-adfc-179ac09e9631" name="Default Changelist" comment="" />
+      <created>1564542247033</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564537107783</updated>
-      <workItem from="1564537109165" duration="4202000" />
+      <updated>1564542247033</updated>
+      <workItem from="1564542248345" duration="1840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4202000" />
+    <option name="totallyTimeSpent" value="1840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="508" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -127,12 +120,12 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32996634" />
+      <window_info anchor="bottom" id="Messages" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23557693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14160584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -152,10 +145,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="330">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
-            <element signature="e#1#20#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
