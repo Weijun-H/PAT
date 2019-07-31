@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1028_List_Sorting" targetName="1028_List_Sorting" />
+      <config projectName="1080_Graduate_Admission_30_" targetName="1080_Graduate_Admission_30_" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d85a83c-b7df-419f-afd0-45b9e0c87ff3" name="Default Changelist" comment="">
+    <list default="true" id="e3ada996-49ba-4a68-8940-5eba80aa0db7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1028.List Sorting/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +34,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="23" column="5" lean-forward="true" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="-380">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#1#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +58,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="389" />
+    <option name="height" value="508" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -64,8 +66,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1080_Graduate_Admission_30_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1080.Graduate Admission(30)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,7 +98,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1028_List_Sorting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1028_List_Sorting" TARGET_NAME="1028_List_Sorting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1028_List_Sorting" RUN_TARGET_NAME="1028_List_Sorting">
+    <configuration name="1080_Graduate_Admission_30_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1080_Graduate_Admission_30_" TARGET_NAME="1080_Graduate_Admission_30_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1080_Graduate_Admission_30_" RUN_TARGET_NAME="1080_Graduate_Admission_30_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,20 +109,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d85a83c-b7df-419f-afd0-45b9e0c87ff3" name="Default Changelist" comment="" />
-      <created>1564464350429</created>
+      <changelist id="e3ada996-49ba-4a68-8940-5eba80aa0db7" name="Default Changelist" comment="" />
+      <created>1564537107783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564464350429</updated>
-      <workItem from="1564464351840" duration="1005000" />
+      <updated>1564537107783</updated>
+      <workItem from="1564537109165" duration="4161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1005000" />
+    <option name="totallyTimeSpent" value="4161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="389" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="508" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -124,7 +136,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32996634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23557693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -142,19 +154,12 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/tclDecls.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2187" column="30" selection-start-line="2187" selection-start-column="30" selection-end-line="2187" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="23" column="5" lean-forward="true" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="-380">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
