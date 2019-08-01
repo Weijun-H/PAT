@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1092_To_Buy_or_Not_to_Buy" targetName="1092_To_Buy_or_Not_to_Buy" />
+      <config projectName="1048_Find_Coins" targetName="1048_Find_Coins" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6798036-c051-4030-bee8-a7606ec455ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="00c7bc69-3c8c-46d4-b628-3a0997b4e5c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1041.Be Unique/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1050.String Subtraction/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +36,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +68,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,7 +90,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1092_To_Buy_or_Not_to_Buy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1092_To_Buy_or_Not_to_Buy" TARGET_NAME="1092_To_Buy_or_Not_to_Buy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1092_To_Buy_or_Not_to_Buy" RUN_TARGET_NAME="1092_To_Buy_or_Not_to_Buy">
+    <configuration name="1048_Find_Coins" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1048_Find_Coins" TARGET_NAME="1048_Find_Coins" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1048_Find_Coins" RUN_TARGET_NAME="1048_Find_Coins">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,17 +101,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6798036-c051-4030-bee8-a7606ec455ae" name="Default Changelist" comment="" />
-      <created>1564544877617</created>
+      <changelist id="00c7bc69-3c8c-46d4-b628-3a0997b4e5c5" name="Default Changelist" comment="" />
+      <created>1564625411756</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564544877617</updated>
-      <workItem from="1564544878907" duration="1261000" />
+      <updated>1564625411756</updated>
+      <workItem from="1564625413055" duration="1266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1261000" />
+    <option name="totallyTimeSpent" value="1266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -119,12 +123,12 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32881355" />
+      <window_info anchor="bottom" id="Messages" weight="0.32846716" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32881355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32846716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -144,10 +148,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>

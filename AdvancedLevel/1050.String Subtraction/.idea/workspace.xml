@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1092_To_Buy_or_Not_to_Buy" targetName="1092_To_Buy_or_Not_to_Buy" />
+      <config projectName="1050_String_Subtraction" targetName="1050_String_Subtraction" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6798036-c051-4030-bee8-a7606ec455ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="22fe7acd-00d3-4f7e-ac0b-0d4b59e9868d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1041.Be Unique/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1092.To Buy or Not to Buy/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +35,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="116">
+              <caret line="9" column="26" lean-forward="true" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="387" />
@@ -64,8 +67,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,7 +89,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1092_To_Buy_or_Not_to_Buy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1092_To_Buy_or_Not_to_Buy" TARGET_NAME="1092_To_Buy_or_Not_to_Buy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1092_To_Buy_or_Not_to_Buy" RUN_TARGET_NAME="1092_To_Buy_or_Not_to_Buy">
+    <configuration name="1050_String_Subtraction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1050_String_Subtraction" TARGET_NAME="1050_String_Subtraction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1050_String_Subtraction" RUN_TARGET_NAME="1050_String_Subtraction">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,20 +100,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6798036-c051-4030-bee8-a7606ec455ae" name="Default Changelist" comment="" />
-      <created>1564544877617</created>
+      <changelist id="22fe7acd-00d3-4f7e-ac0b-0d4b59e9868d" name="Default Changelist" comment="" />
+      <created>1564623876777</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564544877617</updated>
-      <workItem from="1564544878907" duration="1261000" />
+      <updated>1564623876777</updated>
+      <workItem from="1564623878020" duration="1492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1261000" />
+    <option name="totallyTimeSpent" value="1492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="387" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -144,10 +147,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="116">
+          <caret line="9" column="26" lean-forward="true" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>

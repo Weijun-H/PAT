@@ -21,11 +21,13 @@ int main() {
         int id = change(whole[i]);
         hashTable[id]++;
     }
+
     for (int j = 0; j <l2 ; ++j) {
         int id = change(target[j]);
         hashTable[id]--;
         if (hashTable[id] < 0)miss++;
     }
+
     if(miss > 0)printf("No %d\n",miss);
     else printf("Yes %d\n",l1-l2);
     return 0;
