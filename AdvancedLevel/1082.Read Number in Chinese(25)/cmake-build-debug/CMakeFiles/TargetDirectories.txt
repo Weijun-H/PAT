@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1082.Read Number in Chinese(25)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1082.Read Number in Chinese(25)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1082.Read Number in Chinese(25)/cmake-build-debug/CMakeFiles/1082_Read_Number_in_Chinese_25_.dir
