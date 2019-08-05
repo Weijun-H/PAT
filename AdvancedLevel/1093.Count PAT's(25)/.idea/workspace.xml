@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1029_Median_25_" targetName="1029_Median_25_" />
+      <config projectName="1093_Count_PAT_s_25_" targetName="1093_Count_PAT_s_25_" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aba25ec-7e3f-4bab-9dfd-527f82f87268" name="Default Changelist" comment="" />
+    <list default="true" id="e30e604a-4080-41b6-8c11-bc6ae76cd82b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1029.Median(25)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1029.Median(25)/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="398" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -84,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1029_Median_25_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1029_Median_25_" TARGET_NAME="1029_Median_25_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1029_Median_25_" RUN_TARGET_NAME="1029_Median_25_">
+    <configuration name="1093_Count_PAT_s_25_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1093_Count_PAT_s_25_" TARGET_NAME="1093_Count_PAT_s_25_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1093_Count_PAT_s_25_" RUN_TARGET_NAME="1093_Count_PAT_s_25_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,20 +98,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1aba25ec-7e3f-4bab-9dfd-527f82f87268" name="Default Changelist" comment="" />
-      <created>1564968543355</created>
+      <changelist id="e30e604a-4080-41b6-8c11-bc6ae76cd82b" name="Default Changelist" comment="" />
+      <created>1564971802731</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564968543355</updated>
-      <workItem from="1564968544842" duration="3196000" />
+      <updated>1564971802731</updated>
+      <workItem from="1564971804090" duration="1171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3196000" />
+    <option name="totallyTimeSpent" value="1171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="398" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -122,7 +125,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14306569" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -142,10 +145,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
