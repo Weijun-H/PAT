@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1063_Set_Simlarity_25_" targetName="1063_Set_Simlarity_25_" />
+      <config projectName="1060_Are_They_Equal" targetName="1060_Are_They_Equal" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26b1cd1d-ec59-4d3e-a9b5-205f340f3e6d" name="Default Changelist" comment="" />
+    <list default="true" id="9d50d8e3-6665-4488-b148-1d520cafa399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1063.Set Simlarity(25)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1063.Set Simlarity(25)/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="24" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="-222">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +57,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="377" />
+    <option name="height" value="474" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -84,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1063_Set_Simlarity_25_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1063_Set_Simlarity_25_" TARGET_NAME="1063_Set_Simlarity_25_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1063_Set_Simlarity_25_" RUN_TARGET_NAME="1063_Set_Simlarity_25_">
+    <configuration name="1060_Are_They_Equal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1060_Are_They_Equal" TARGET_NAME="1060_Are_They_Equal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1060_Are_They_Equal" RUN_TARGET_NAME="1060_Are_They_Equal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,20 +98,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26b1cd1d-ec59-4d3e-a9b5-205f340f3e6d" name="Default Changelist" comment="" />
-      <created>1565057522477</created>
+      <changelist id="9d50d8e3-6665-4488-b148-1d520cafa399" name="Default Changelist" comment="" />
+      <created>1565060441051</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565057522477</updated>
-      <workItem from="1565057523789" duration="2797000" />
+      <updated>1565060441051</updated>
+      <workItem from="1565060442377" duration="1638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2797000" />
+    <option name="totallyTimeSpent" value="1638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="377" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="474" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -122,7 +125,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2460733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -142,10 +145,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="24" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="-222">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
