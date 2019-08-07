@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1054.The Dominant Color(20)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1054.The Dominant Color(20)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1054.The Dominant Color(20)/cmake-build-debug/CMakeFiles/1054_The_Dominant_Color_20_.dir
