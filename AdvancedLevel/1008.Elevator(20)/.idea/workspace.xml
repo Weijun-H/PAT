@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1069_The_Black_Hole_of_Numbers_20_" targetName="1069_The_Black_Hole_of_Numbers_20_" />
+      <config projectName="1008_Elevator_20_" targetName="1008_Elevator_20_" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6e142c-ab2c-418b-ab72-aa27fd58bd14" name="Default Changelist" comment="">
+    <list default="true" id="203b34b0-d34e-4618-bef7-78c4c86ec247" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1104.Sum of Number Segments(20)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1069.The Black Hole of Numbers(20)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1069.The Black Hole of Numbers(20)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="16" column="35" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="259">
+              <caret line="18" column="1" lean-forward="true" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -64,8 +66,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,7 +88,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1069_The_Black_Hole_of_Numbers_20_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1069_The_Black_Hole_of_Numbers_20_" TARGET_NAME="1069_The_Black_Hole_of_Numbers_20_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1069_The_Black_Hole_of_Numbers_20_" RUN_TARGET_NAME="1069_The_Black_Hole_of_Numbers_20_">
+    <configuration name="1008_Elevator_20_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1008_Elevator_20_" TARGET_NAME="1008_Elevator_20_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1008_Elevator_20_" RUN_TARGET_NAME="1008_Elevator_20_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,17 +99,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef6e142c-ab2c-418b-ab72-aa27fd58bd14" name="Default Changelist" comment="" />
-      <created>1565227872661</created>
+      <changelist id="203b34b0-d34e-4618-bef7-78c4c86ec247" name="Default Changelist" comment="" />
+      <created>1565230935363</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565227872661</updated>
-      <workItem from="1565227874238" duration="2661000" />
+      <updated>1565230935363</updated>
+      <workItem from="1565230936606" duration="811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2661000" />
+    <option name="totallyTimeSpent" value="811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="488" extended-state="0" />
@@ -144,8 +146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="16" column="35" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="259">
+          <caret line="18" column="1" lean-forward="true" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
