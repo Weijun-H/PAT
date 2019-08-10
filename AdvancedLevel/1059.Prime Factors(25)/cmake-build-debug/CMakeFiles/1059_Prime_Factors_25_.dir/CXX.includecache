@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1059.Prime Factors(25)/main.cpp
+cstdio
+-
+iostream
+-
+cmath
+-
+map
+-
+set
+-
+
