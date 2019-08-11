@@ -1,0 +1,6 @@
+﻿  main.cpp
+E:\大学\自学cs\PAT\AdvancedLevel\1024.Palindromic Number(25)\1024.Palindromic Number(25)\main.cpp(18,23): warning C4018:  “<=”: 有符号/无符号不匹配
+E:\大学\自学cs\PAT\AdvancedLevel\1024.Palindromic Number(25)\1024.Palindromic Number(25)\main.cpp(28,23): warning C4018:  “<”: 有符号/无符号不匹配
+E:\大学\自学cs\PAT\AdvancedLevel\1024.Palindromic Number(25)\1024.Palindromic Number(25)\main.cpp(45,23): warning C4018:  “<”: 有符号/无符号不匹配
+E:\大学\自学cs\PAT\AdvancedLevel\1024.Palindromic Number(25)\1024.Palindromic Number(25)\main.cpp(60,23): warning C4018:  “<”: 有符号/无符号不匹配
+  1024.Palindromic Number(25).vcxproj -> E:\大学\自学cs\PAT\AdvancedLevel\1024.Palindromic Number(25)\Debug\1024.Palindromic Number(25).exe
