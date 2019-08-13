@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(1097_Deduplication_on_a_Linked_List_25_)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(1097_Deduplication_on_a_Linked_List_25_ main.cpp)
