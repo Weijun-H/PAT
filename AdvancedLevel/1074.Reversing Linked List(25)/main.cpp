@@ -28,15 +28,16 @@ int main(){
     sort(node,node + maxn,cmp);
     n = count;
     for (int i = 0; i <n/K ; ++i) {
-        for (int j = (i+1)*K-1; j > i*K; --j) {
+        for (int j = (i+1)*K-1; j > i*K; --j) {             //第i块倒着输出
             printf("%05d %d %05d\n",node[j].address,node[j].data,node[j-1].address);
         }
+        //对于每一块的最后一个节点的next地址处理
         printf("%05d %d ",node[i*K].address,node[i*K].data);
-        if (i<n /K-1){
+        if (i<n /K-1){      //如果不是最后一块，就指向下一块的最后一个节点
             printf("%05d\n",node[(i+2)*K-1].address);
-        }else{
-            if(n%K==0)printf("-1\n");
-            else{
+        }else{      //是最后一块
+            if(n%K==0)printf("-1\n");   //恰好是最后一个节点，输出-1
+            else{       //剩下不完整的地块按原先的顺序输出
                 printf("%05d\n",node[(i+1)*K].address);
                 for (int i = n/K*K; i < n; ++i) {
                     printf("%05d %d ",node[i].address,node[i].data);
