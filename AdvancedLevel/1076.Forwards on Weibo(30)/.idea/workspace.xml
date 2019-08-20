@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1034_Head_of_a_Gang_30_" targetName="1034_Head_of_a_Gang_30_" />
+      <config projectName="1076_Forwards_on_Weibo_30_" targetName="1076_Forwards_on_Weibo_30_" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f6fc53c-689c-4d42-9df6-e3daeacfc163" name="Default Changelist" comment="" />
+    <list default="true" id="a5d3b888-6f60-4e6c-98c0-7abb348022c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1034.Head of a Gang(30)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1034.Head of a Gang(30)/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="219">
+              <caret line="58" column="13" selection-end-line="59" selection-end-column="1" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +65,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -84,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1034_Head_of_a_Gang_30_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1034_Head_of_a_Gang_30_" TARGET_NAME="1034_Head_of_a_Gang_30_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1034_Head_of_a_Gang_30_" RUN_TARGET_NAME="1034_Head_of_a_Gang_30_">
+    <configuration name="1076_Forwards_on_Weibo_30_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1076_Forwards_on_Weibo_30_" TARGET_NAME="1076_Forwards_on_Weibo_30_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1076_Forwards_on_Weibo_30_" RUN_TARGET_NAME="1076_Forwards_on_Weibo_30_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,17 +98,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f6fc53c-689c-4d42-9df6-e3daeacfc163" name="Default Changelist" comment="" />
-      <created>1566185880941</created>
+      <changelist id="a5d3b888-6f60-4e6c-98c0-7abb348022c5" name="Default Changelist" comment="" />
+      <created>1566265127897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566185880941</updated>
-      <workItem from="1566185884368" duration="1907000" />
+      <updated>1566265127897</updated>
+      <workItem from="1566265129409" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1907000" />
+    <option name="totallyTimeSpent" value="1193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="389" extended-state="0" />
@@ -141,10 +144,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="219">
+          <caret line="58" column="13" selection-end-line="59" selection-end-column="1" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
