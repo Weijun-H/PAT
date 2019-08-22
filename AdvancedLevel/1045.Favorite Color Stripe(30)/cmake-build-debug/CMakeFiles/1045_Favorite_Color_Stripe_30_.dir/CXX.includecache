@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/1045.Favorite Color Stripe(30)/main.cpp
+cstring
+-
+cstdio
+-
+algorithm
+-
+
