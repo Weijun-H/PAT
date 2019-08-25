@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1031.Hello World for U(20)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1031.Hello World for U(20)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1031.Hello World for U(20)/cmake-build-debug/CMakeFiles/1031_Hello_World_for_U_20_.dir
