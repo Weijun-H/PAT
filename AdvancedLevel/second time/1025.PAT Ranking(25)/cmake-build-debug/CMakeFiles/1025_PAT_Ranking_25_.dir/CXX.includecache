@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1025.PAT Ranking(25)/main.cpp
+cstdio
+-
+algorithm
+-
+
