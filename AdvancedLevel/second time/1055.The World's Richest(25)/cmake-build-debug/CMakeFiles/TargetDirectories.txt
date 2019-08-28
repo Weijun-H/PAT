@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1055.The World's Richest(25)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1055.The World's Richest(25)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1055.The World's Richest(25)/cmake-build-debug/CMakeFiles/1055_The_World_s_Richest_25_.dir
