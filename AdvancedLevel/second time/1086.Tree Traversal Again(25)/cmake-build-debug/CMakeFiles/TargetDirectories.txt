@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1086.Tree Traversal Again(25)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1086.Tree Traversal Again(25)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1086.Tree Traversal Again(25)/cmake-build-debug/CMakeFiles/1086_Tree_Traversal_Again_25_.dir
