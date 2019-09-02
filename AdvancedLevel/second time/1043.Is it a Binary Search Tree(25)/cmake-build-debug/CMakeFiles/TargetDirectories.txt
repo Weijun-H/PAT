@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1043.Is it a Binary Search Tree(25)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1043.Is it a Binary Search Tree(25)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1043.Is it a Binary Search Tree(25)/cmake-build-debug/CMakeFiles/1043_Is_it_a_Binary_Search_Tree_25_.dir
