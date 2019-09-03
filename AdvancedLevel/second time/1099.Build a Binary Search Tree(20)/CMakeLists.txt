@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(1099_Build_a_Binary_Search_Tree_20_)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(1099_Build_a_Binary_Search_Tree_20_ main.cpp)
