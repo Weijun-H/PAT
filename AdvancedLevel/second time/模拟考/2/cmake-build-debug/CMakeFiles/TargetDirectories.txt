@@ -1,0 +1,3 @@
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/模拟考/2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/模拟考/2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/模拟考/2/cmake-build-debug/CMakeFiles/2.dir
