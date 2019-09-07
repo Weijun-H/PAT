@@ -1,23 +1,23 @@
-#include <cstdio>
+#include <iostream>
 #include <algorithm>
 using namespace std;
-const int maxn = 1010;
-int n, number[maxn], CBT[maxn], inde = 0;
+const int maxn = 1005;
+int n,num[maxn],CBT[maxn],idx=0;
 void inOrder(int root){
-    if(root > n)return;
-    inOrder(root*2);
-    CBT[root] = number[inde++];
-    inOrder(root * 2+1);
+    if(root>n)return;
+    inOrder(2*root);
+    CBT[root]=num[idx++];
+    inOrder(2*root+1);
 }
-int main() {
-    scanf("%d",&n);
+int main(){
+    cin>>n;
     for (int i = 0; i < n; ++i) {
-        scanf("%d",&number[i]);
+        cin>>num[i];
     }
-    sort(number,number+n);
+    sort(num,num+n);
     inOrder(1);
     for (int i = 1; i <= n; ++i) {
         printf("%d",CBT[i]);
-        if(i < n)printf(" ");
+        if(i!=n-1)printf(" ");
     }
 }
