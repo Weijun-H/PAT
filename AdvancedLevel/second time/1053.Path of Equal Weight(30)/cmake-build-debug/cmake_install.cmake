@@ -1,4 +1,4 @@
-# Install script for directory: /Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/untitled
+# Install script for directory: /Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1053.Path of Equal Weight(30)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1053.Path of Equal Weight(30)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/untitled/main.cpp" "/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1053.Path of Equal Weight(30)/main.cpp" "/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1053.Path of Equal Weight(30)/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

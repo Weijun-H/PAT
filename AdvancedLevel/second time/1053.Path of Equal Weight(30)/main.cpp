@@ -1,54 +1,50 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 const int maxn = 105;
-int n,m,w;
+int n,m,s,weight[maxn];
+bool cmp(int a,int b){
+    return weight[a]>weight[b];
+}
 struct Node{
     int weight;
     vector<int> child;
 }node[maxn];
-bool cmp(int a,int b){
-    return node[a].weight>node[b].weight;
-}
-vector<int>ans,res;
-void preOrder(Node root,int total_weight){
-    if(total_weight>w)return;
-    else if(total_weight==w){
-        if(root.child.size()==0){
+vector<int>ans;
+void DFS(int root,int w){
+    ans.push_back(weight[root]);
+    if(node[root].child.size()==0){
+        if (w==s){
             for (int i = 0; i < ans.size(); ++i) {
                 printf("%d",ans[i]);
-                printf(" ");
+                if(i!=ans.size()-1)printf(" ");
+                else printf("\n");
             }
-            printf("%d\n",root.weight);
-        } else return;
-    }else {
-        ans.push_back(root.weight);
-        for (int i = 0; i < root.child.size(); ++i) {
-            sort(root.child.begin(),root.child.end(),cmp);
-            preOrder(node[root.child[i]],total_weight+node[root.child[i]].weight);
+        } else if(w>s)return;
+    }
+        for (int i = 0; i < node[root].child.size(); ++i) {
+            sort(node[root].child.begin(),node[root].child.end(),cmp);
+            DFS(node[root].child[i],w+weight[node[root].child[i]]);
+            ans.pop_back();
         }
-        ans.pop_back();
-    }
-}
-int main() {
-    cin>>n>>m>>w;
-    for (int i = 0; i < n ; ++i) {
-        int weight;
-        cin>>weight;
-        node[i].weight=weight;
-    }
-    for (int i = 0; i < m; ++i) {
-        int index;
-        cin>>index;
-        int num;
-        cin>>num;
-        for (int j = 0; j < num; ++j) {
-            int child;
-            cin>>child;
-            node[index].child.push_back(child);
-        }
-    }
 
-    preOrder(node[0],node[0].weight);
+}
+int main(){
+    cin>>n>>m>>s;
+    int root = 0;
+    for (int i = 0; i < n; ++i) {
+        int w;
+        cin>>w;
+        weight[i]=w;
+    }
+    for (int j = 0; j < m; ++j) {
+        int id,child_num;
+        cin>>id>>child_num;
+        for (int i = 0; i < child_num; ++i) {
+            int a;
+            cin>>a;
+            node[id].child.push_back(a);
+        }
+    }
+    DFS(root,weight[root]);
 }

@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/untitled/main.cpp
+/Users/huangweijun/Desktop/PAT/PAT/AdvancedLevel/second time/1053.Path of Equal Weight(30)/main.cpp
 iostream
 -
 vector
--
-algorithm
 -
 
