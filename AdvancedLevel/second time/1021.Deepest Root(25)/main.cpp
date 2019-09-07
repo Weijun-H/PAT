@@ -1,83 +1,85 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cstring>
+#include <string>
 #include <set>
+#include <vector>
 using namespace std;
 const int maxn = 10005;
 vector<int> G[maxn];
-set<int> root;
-bool vis[maxn],isRoot[maxn]={0};
-int n,height,maxh = -1,father[maxn];
-int FindFather(int a){
-    int x = a;
-    while (a!=father[a]){
-        a = father[a];
-    }
-    while (x != father[x]){
-        int y = x;
+int father[maxn];
+bool vis[maxn];
+int findfather(int x){
+    int a = x;
+    while (x!=father[x]){
         x = father[x];
-        father[y] = a;
     }
-    return a;
+    while (a != father[a]){
+        int z = a;
+        a = father[a];
+        father[z] = x;
+    }
+    return x;
 }
 void Union(int a,int b){
-    int FaA = FindFather(a);
-    int FaB = FindFather(b);
+    int FaA = findfather(a);
+    int FaB = findfather(b);
     if(FaA!=FaB){
         father[FaA]=FaB;
     }
 }
-int calBlock(int n){
-    int Block = 0;
+int cakBlock(int n){
+    int Root[maxn];
+    int block=0;
+    fill(Root,Root+maxn,0);
     for (int i = 1; i <= n; ++i) {
-        isRoot[FindFather(i)]++;
+        Root[findfather(i)]++;
     }
     for (int i = 1; i <=n ; ++i) {
-        if(isRoot[i]>0)Block++;
+        if(Root[i]>0)block++;
     }
-    return Block;
+    return block;
 }
 void init(){
-    for (int i = 0; i <=maxn ; ++i) {
+    for (int i = 1; i < maxn; ++i) {
         father[i]=i;
     }
 }
-void DFS(int v,int h,int r){
-    if(h>maxh){
-        maxh = h;
-        root.clear();
-        root.insert(r);
-    }else if(h==maxh){
-        root.insert(r);
+set<int>ans;
+int max_deep=0;
+void dfs(int node,int deep,int root){
+    if(max_deep<deep){
+        ans.clear();
+        ans.insert(root);
+        max_deep=deep;
+    }else if(max_deep==deep){
+        ans.insert(root);
     }
-    vis[v] = true;
-    for (int i = 0; i < G[v].size(); ++i) {
-        if(vis[G[v][i]]== false){
-            DFS(G[v][i],h+1,r);
-        }
+    vis[node]= true;
+    for (int i = 0; i < G[node].size(); ++i) {
+        if(vis[G[node][i]]== false)dfs(G[node][i],deep+1,root);
+        else continue;
     }
 }
-int main() {
-    cin>>n;
+int main(){
     init();
-    for (int i = 1; i < n; ++i) {
+    int n;
+    scanf("%d",&n);
+    for (int i = 0; i < n-1; ++i) {
         int a,b;
-        cin>>a>>b;
+        scanf("%d%d",&a,&b);
         G[a].push_back(b);
         G[b].push_back(a);
         Union(a,b);
     }
-    if(calBlock(n)>1){
-        printf("Error: %d components",calBlock(n));
+    int block = cakBlock(n);
+    if(block>1){
+        printf("Error: %d components",block);
         return 0;
     }
-    int max_Now=-1;
-    for (int i = 1; i <=n ; ++i) {
-        fill(vis,vis+n+1,0);
-        DFS(i,1,i);
+    for (int j = 1; j <=n ; ++j) {
+        fill(vis,vis+maxn,0);
+        dfs(j,1,j);
     }
-    for (auto i = root.begin(); i != root.end(); ++i) {
-        cout<<*i<<endl;
+    for (auto k = ans.begin(); k != ans.end(); ++k) {
+        printf("%d\n",*k);
     }
 }
