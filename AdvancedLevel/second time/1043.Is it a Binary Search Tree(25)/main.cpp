@@ -1,39 +1,74 @@
-#include <cstdio>
-#include <cmath>
+#include <iostream>
 #include <vector>
 using namespace std;
-const int maxn = 100010;
-vector<int> child[maxn];
-double p, r;
-int n, maxDepth = 0, num = 0 ;
-
-void DFS(int index, int depth){
-    if(child[index].size() == 0){
-        if(depth > maxDepth){
-            maxDepth = depth;
-            num = 1;
-        }else if(depth == maxDepth){
-            num++;
-        }
+struct node{
+    int data;
+    node*lchild=NULL,*rchild=NULL;
+    node(int d):data(d){}
+};
+void insert(node*& root,int data){
+    if(root==NULL){
+        root = new node(data);
         return;
     }
-    for(int i = 0; i < child[index].size(); i++){
-        DFS(child[index][i], depth + 1);
-    }
+    if(root->data>data)insert(root->lchild,data);
+    else insert(root->rchild,data);
 }
-int main() {
-    int father, root;
-    scanf("%d%lf%lf",&n,&p,&r);
-    r /= 100;
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &father);
-        if (father != -1) {
-            child[father].push_back(i);
-        } else {
-            root = i;
+vector<int>pre,premirror,post,post_mirror;
+void preorder(node* root){
+    if(root==NULL)return;
+    pre.push_back(root->data);
+    preorder(root->lchild);
+    preorder(root->rchild);
+}
+void preorder_mirror(node* root){
+    if(root==NULL)return;
+    premirror.push_back(root->data);
+    preorder_mirror(root->rchild);
+    preorder_mirror(root->lchild);
+}
+void postorder(node*root){
+    if(root==NULL)return;
+    postorder(root->lchild);
+    postorder(root->rchild);
+    post.push_back(root->data);
+}
+void postorder_mirror(node*root){
+    if(root==NULL)return;
+    postorder_mirror(root->rchild);
+    postorder_mirror(root->lchild);
+    post_mirror.push_back(root->data);
+}
+int main(){
+    int n;
+    cin>>n;
+    node*root = NULL;
+    vector<int>origin;
+    for (int i = 0; i < n; ++i) {
+        int data;
+        cin>>data;
+        insert(root,data);
+        origin.push_back(data);
+    }
+    preorder(root);
+    preorder_mirror(root);
+    postorder(root);
+    postorder_mirror(root);
+
+    if(origin==pre){
+        printf("YES\n");
+        for (int i = 0; i < post.size(); ++i) {
+            printf("%d",post[i]);
+            if(i!=post.size()-1)printf(" ");
         }
     }
-    DFS(root,0);
-    printf("%.2f %d\n",p*pow(1+r,maxDepth), num);
-    return 0;
+    else if(origin==premirror){
+        printf("YES\n");
+        for (int i = 0; i < post_mirror.size(); ++i) {
+            printf("%d",post_mirror[i]);
+            if(i!=post_mirror.size()-1)printf(" ");
+        }
+    }
+    else{printf("NO\n");}
+
 }
