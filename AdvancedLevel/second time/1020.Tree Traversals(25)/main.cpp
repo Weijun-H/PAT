@@ -1,57 +1,49 @@
 #include <iostream>
 #include <queue>
-#include <vector>
 using namespace std;
-int n;
+const int maxn = 40;
+int n,post[maxn],in[maxn],num=0;
 struct node{
     int data;
-    node* lchild;
-    node* rchild;
+    node* lchild,*rchild;
 };
-vector<int>post,in;
-node* creat_tree(int postL,int postR,int inL,int inR){
-    if (postL>postR)
+node* creat(int postL,int postR,int inL,int inR){
+    if(postL>postR)
         return NULL;
-    node* root= new node;
+    node* root = new node;
     root->data = post[postR];
-    int mid=-1;
-    for (int i = inL; i <=inR ; ++i) {
-        if(root->data==in[i]){
-            mid = i;
+    int mid;
+    for (int i = inL; i <= inR; ++i) {
+        if(in[i]==root->data){
+            mid=i;
             break;
         }
     }
-    int numLeft = mid-inL;
-    root->lchild=creat_tree(postL,postL+numLeft-1,inL,mid-1);
-    root->rchild = creat_tree(postL+numLeft,postR-1,mid+1,inR);
+    int num = mid - inL;
+    root->lchild = creat(postL,postL+num-1,inL,mid-1);
+    root->rchild = creat(postL+num,postR-1,mid+1,inR);
     return root;
 }
-int num=0;
 void BFS(node* root){
     queue<node*> q;
     q.push(root);
     while (!q.empty()){
-        node* now = q.front();
+        node* p = q.front();
         q.pop();
-        printf("%d",now->data);
-        num++;
-        if (num!=n){printf(" ");}
-        if(now->lchild!=NULL)q.push(now->lchild);
-        if(now->rchild!=NULL)q.push(now->rchild);
+        printf("%d",p->data);
+        if(num++!=n)printf(" ");
+        if(p->lchild!=NULL)q.push(p->lchild);
+        if(p->rchild!=NULL)q.push(p->rchild);
     }
 }
-int main() {
+int main(){
     cin>>n;
     for (int i = 0; i < n; ++i) {
-        int t;
-        cin>>t;
-        post.push_back(t);
+        cin>>post[i];
     }
     for (int i = 0; i < n; ++i) {
-        int t;
-        cin>>t;
-        in.push_back(t);
+        cin>>in[i];
     }
-    node* root = creat_tree(0,n-1,0,n-1);
+    node* root = creat(0,n-1,0,n-1);
     BFS(root);
 }
